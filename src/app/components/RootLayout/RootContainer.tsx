@@ -1,5 +1,6 @@
 import { Providers } from "@/app/providers";
 import { Container, Flex } from "@chakra-ui/react";
+import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 
 const RootContainer = ({ children }: { children: React.ReactNode }) => {
@@ -11,6 +12,7 @@ const RootContainer = ({ children }: { children: React.ReactNode }) => {
           <Providers>{children}</Providers>
         </Container>
       </Flex>
+      <Footer />
     </Flex>
   );
 };
