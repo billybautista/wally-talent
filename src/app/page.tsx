@@ -273,7 +273,7 @@ export default function Page() {
       </Flex>
       <Flex
         height={"calc(100vh - 80px)"}
-        bg="#ffd3a5"
+        bg="white"
         id="section4"
         style={{
           scrollMarginTop: "80px",
